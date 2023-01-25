@@ -10,4 +10,6 @@ public:
             for(int j=0; j<n; j++){
                 swap(matrix[j][i],matrix[j][k]);
     }
+        }
+    }
 };
