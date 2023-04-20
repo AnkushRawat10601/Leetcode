@@ -36,4 +36,17 @@ public:
 // Input: n = 4
 // Output: true
 // Explantion: 4 has three divisors: 1, 2, and 4.
+                        // Another Method
+class Solution {
+public:
+    bool isThree(int n) {
+        int count=0,i=1;
+        while(i<=n){
+            if(n%i==0) count++;
+            i++;
+        }
+        if(count==3) return true;
+        else return false;
+    }
+};
  
